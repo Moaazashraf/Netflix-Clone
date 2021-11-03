@@ -18,4 +18,4 @@ You will also see any lint errors in the console.
 
 👉 Building a Netflix Clone App 💻.\
 👉 Deploying a React app with Firebase Hosting 🌐.\
-👉 Real-time database with Firebase’s Firestore 🔥.\
+👉 Real-time database with Firebase’s Firestore 🔥
