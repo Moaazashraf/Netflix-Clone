@@ -2,10 +2,12 @@ import "./App.css";
 import Row from "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
+import NavBar from "./NavBar";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
@@ -27,6 +29,16 @@ function App() {
       <Row
         title="Horror Movies"
         fetchUrl={requests.fetchHorrorMovies}
+        isLargeRow
+      />
+      <Row
+        title="Romance Movies"
+        fetchUrl={requests.fetchRomanceMovies}
+        isLargeRow
+      />
+      <Row
+        title="Documentaries Movies"
+        fetchUrl={requests.fetchDocumentaries}
         isLargeRow
       />
     </div>
